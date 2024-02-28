@@ -1,0 +1,19 @@
+/* EquipmentList.css */
+
+.equipment-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.equipment-table th,
+.equipment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.equipment-table th {
+    background-color: #f2f2f2;
+    /* Other table styles */
+}
+
+/* Additional styles as needed */

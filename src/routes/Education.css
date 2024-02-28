@@ -1,0 +1,18 @@
+/* Education.css */
+.education-container {
+    background-image: url('../assets/7330694.jpg'); /* Change the path to your background image */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .hero-mid {
+    height: 350px;
+    margin-top: 55px;
+  }
+  
+  
+  

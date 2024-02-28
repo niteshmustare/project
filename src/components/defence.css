@@ -1,0 +1,58 @@
+.carousel .carousel-item img {
+  height: 300px; /* Adjust the height as needed */
+  margin-top: 5px;
+}
+
+.figure-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.figure-container .figure {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.figure-container .figure img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+.half-underline {
+  position: relative;
+  color: red;
+}
+
+.half-underline::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%; /* Adjust this value to change the length of the underline */
+  border-bottom: 1px solid red;
+}
+
+.card-text-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-text-container .card {
+  width: 18rem;
+}
+
+.card-text-container .card img {
+  height: 200px;
+}
+
+.card-text-container .card-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.card-text-container .card-text {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
